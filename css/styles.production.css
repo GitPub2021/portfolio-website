@@ -6,10 +6,16 @@ Primary Color (Purple): #357b70;
 Secondary Color (Orange): #e0b354;
  */
 
-
-* {
-  box-sizing: border-box;
-}
+ html {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ *, *:before, *:after {
+   -webkit-box-sizing: inherit;
+   -moz-box-sizing: inherit;
+   box-sizing: inherit;
+   }
 
 :root {
   --primary-color: #357b70;
@@ -140,7 +146,7 @@ button:focus,
 }
 
 main {
-  padding: 20px;
+  margin: 20px;
 }
 
 .page__footer {
