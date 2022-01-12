@@ -134,6 +134,11 @@ button:focus,
   border-radius: 50%;
 }
 
+#linkedin-icon {
+  width: 60px;
+  height: 60px;
+}
+
 main {
   padding: 20px;
 }
@@ -219,29 +224,28 @@ main {
   animation: 4s color-change infinite alternate linear;
 }
 
-@keyframes cloud-move { 
-  from { 
-    transform: translate(0, 50px); 
-    } to { 
-      transform: translate(200px, 50px); 
-      } 
-} 
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+    } to {
+      transform: translate(200px, 50px);
+      }
+}
 
-.cloud-front { 
-  animation: 30s cloud-move infinite alternate linear; 
-} 
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
 
-@keyframes cloud-move-reverse { 
-  from { 
-    transform: translate(446px, 48px); 
-    } to { 
-      transform: translate(100px, 48px); 
-    } 
-} 
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+    } to {
+      transform: translate(100px, 48px);
+    }
+}
 
-.cloud-back { 
-  animation: 34s cloud-move-reverse infinite alternate linear; 
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 /* Link to codepen: https://codepen.io/LS2022/pen/MWEqXKe */
-
