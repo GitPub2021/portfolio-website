@@ -142,19 +142,29 @@ button:focus,
 
 #linkedin-icon {
   width: 60px;
-  height: 60px;
 }
 
 main {
   margin: 20px;
+  display: block;
+  width: 100%;
 }
 
-.page__footer {
-  clear: both;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+
+
+footer {
+  display: block;
+  position: relative;
+  top: 200px;
 }
+
+
+
+.page__footer {
+  display: block;
+  margin: 20px;
+}
+
 
 
 /* here come page-specific styles */
@@ -178,17 +188,23 @@ main {
 
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+  margin: 20px;
+  gap: 20px;
 }
 
 .grid__item {
   background-color: #eeeeee;
+  max-height: 300px;
+  flex: 0 0 300px;
 }
 
 /* Here is the part with the media queries for responsiveness */
 
+/*
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
@@ -211,6 +227,8 @@ main {
     font-size: 22px;
   }
 }
+
+*/
 
 
 @keyframes color-change {
