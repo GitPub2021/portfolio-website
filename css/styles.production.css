@@ -39,34 +39,34 @@ body {
  font-weight: 500;
  font-size: 15px;
  line-height: 1.6;
- background-color: var(--light-grey);
- color: var(--black);
+ background-color: #eeeeee;
+ color: #000;
 }
 
 h1 {
- font-size: var(--bigfont);
- font-weight: var(--headlineweight);
+ font-size: 28px;
+ font-weight: 1600;
  line-height: 1.9;
 }
 
 h2 {
- font-size: var(--mediumfont);
- font-weight: var(--headlineweight);
+ font-size: 22px;
+ font-weight: 1600;
  line-height: 1.8;
 }
 
 h3 {
- font-size: var(--smallfont);
- font-weight: var(--headlineweight);
+ font-size: 18px;
+ font-weight: 1600;
  line-height: 1.7;
 }
 
 a {
-  color: var(--black);
+  color: #000;
 }
 
 a:visited {
-  color: var(--dark-grey);
+  color: #2b2b2b;
 }
 
 a:hover, a:focus {
@@ -74,7 +74,7 @@ a:hover, a:focus {
 }
 
 a:active {
-  color: var(--red);
+  color: #f44336;
 }
 
 .button, button {
@@ -85,8 +85,8 @@ a:active {
   /* takes the font from the outer container */
   font-family: inherit;
   /* style button */
-  background-color: var(--primary-color);
-  color: var(--white);
+  background-color: #357b70;
+  color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -184,7 +184,7 @@ main {
 }
 
 .grid__item {
-  background-color: var(--lightgrey);
+  background-color: #eeeeee;
 }
 
 /* Here is the part with the media queries for responsiveness */
@@ -208,20 +208,20 @@ main {
     grid-row: auto / auto;
   }
   h1 {
-    font-size: var(--mediumfont);
+    font-size: 22px;
   }
 }
 
 
 @keyframes color-change {
   0% {
-    fill: var(--sun-fill1);
+    fill: #edc655;
   }
   50% {
-    fill: var(--sun-fill2);
+    fill: #fcffad;
   }
   100% {
-    fill: var(--sun-fill3);
+    fill: #f76414;
   }
 }
 
