@@ -141,12 +141,23 @@ button:focus,
 .profile__portrait {
   float: left;
   width: 250px;
-  margin-right: 40px;
+  margin: 30px;
   border-radius: 50%;
 }
 
 #linkedin-icon {
   width: 60px;
+}
+
+#icon {
+  width: 100px;
+  display: inline-block;
+}
+
+#github-link {
+  display: inline-block;
+  vertical-align: middle;
+  /* height: 2em; */
 }
 
 main , .main {
