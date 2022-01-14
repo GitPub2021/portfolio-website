@@ -149,12 +149,12 @@ button:focus,
   width: 60px;
 }
 
-#icon {
+img#icon {
   width: 100px;
   display: inline-block;
 }
 
-#github-link {
+a#github-link {
   display: inline-block;
   vertical-align: middle;
   /* height: 2em; */
